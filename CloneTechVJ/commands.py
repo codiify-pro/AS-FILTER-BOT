@@ -23,7 +23,7 @@ async def start(client, message):
     cd = await db.get_bot(me.id)
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-            InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{me.username}?startgroup=true')
+            InlineKeyboardButton('⤬ ᴠɪꜱɪᴛ ᴏᴅɪɴᴜʟʟ ⤬', url=f'http://null.odivax.com/')
         ]]
         if cd["update_channel_link"] != None:
             up = cd["update_channel_link"]
@@ -35,7 +35,7 @@ async def start(client, message):
         await clonedb.add_user(me.id, message.from_user.id)
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{me.username}?startgroup=true')
+            InlineKeyboardButton('⤬ ᴠɪꜱɪᴛ ᴏᴅɪɴᴜʟʟ ⤬', url=f'http://null.odivax.com/')
         ],[
             InlineKeyboardButton('🕵️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('🔍 ᴀʙᴏᴜᴛ', callback_data='about')
@@ -44,7 +44,7 @@ async def start(client, message):
             up = cd["update_channel_link"]
             buttons.append([InlineKeyboardButton('🍿 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🍿', url=up)])
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgIAAxkBAAOhaEhOWXcJSBpQef66S4yNzC8So_8AAkwUAAJoP8FLmDP7oFfMRZQeBA") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_text(
