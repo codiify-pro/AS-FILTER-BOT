@@ -18,9 +18,9 @@ I’m an advanced Blogger theme finder bot. Just send me the name of any theme y
     
 ‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
 ‣ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
-‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href={}>ᴏᴡɴᴇʀ</a> 
+‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/aaryan_sah'>ᴏᴡɴᴇʀ</a> 
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
-‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://odivex.com'>ODIVEX</a> 
+‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://odivex.com'>ᴏᴅɪᴠᴇx</a> 
 ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
 
     CLONE_ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴀʙᴏᴜᴛ ]───⍟</blockquote>
@@ -192,8 +192,7 @@ Nᴀᴍᴇ - {}"""
     CUDNT_FND = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}
 ᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏɴᴇ ᴏꜰ ᴛʜᴇꜱᴇ?"""
 
-    I_CUDNT = """<b>sᴏʀʀʏ ɴᴏ ꜰɪʟᴇs ᴡᴇʀᴇ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ {} 😕
-🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
+    I_CUDNT = """<b>sᴏʀʀʏ ɴᴏ ꜰɪʟᴇs ᴡᴇʀᴇ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ {} 😕</b>"""
 
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ THEME ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
 ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ..."""
@@ -229,9 +228,9 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """<b>📂 ᴛᴇᴍᴩʟᴀᴛᴇ ꜰɪʟᴇ ɴᴀᴍᴇ  : {file_name}
 
-<b>⚙️ sɪᴢᴇ : {file_size}</b>""" 
+<b>ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴏɴʟy ᴅɪꜱᴛʀɪʙᴜᴛɪɴɢ ᴛʜᴇ ᴛʜᴇᴍᴇ. ᴀʟʟ ᴛʜᴇᴍᴇ ᴄʀᴇᴅɪᴛꜱ ɢᴏ ᴛᴏ ᴛʜᴇ ᴏʀɪɢɪɴᴀʟ ᴏᴡɴᴇʀ. ɪꜰ yᴏᴜ ʜᴀᴠᴇ ᴀɴy ɪꜱꜱᴜᴇꜱ, ᴩʟᴇᴀꜱᴇ ᴅɪꜱᴄᴜꜱꜱ ᴛʜᴇᴍ ᴡɪᴛʜ ᴛʜᴇ ᴏᴅɪᴠᴇx ᴛᴇᴀᴍ ᴏɴ ᴏᴅɪᴛᴀʟᴋ.</b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
