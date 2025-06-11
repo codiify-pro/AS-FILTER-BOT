@@ -28,7 +28,7 @@ async def start(client, message):
         pass
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-            InlineKeyboardButton('⤬ ᴠɪꜱɪᴛ ᴏᴅɪɴᴜʟʟ ⤬', url=f'http://null.odivex.com')
+            InlineKeyboardButton('⤬ ᴠɪꜱɪᴛ ᴏᴅɪɴᴜʟʟ ⤬', url=f'http://null.odivax.com')
         ],[
             InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
             InlineKeyboardButton('ᴛʜᴇᴍᴇ ꜰɪɴᴅᴇʀ ɢʀᴏᴜᴘ', url=GRP_LNK)
@@ -63,10 +63,10 @@ async def start(client, message):
             ]]
         else:
             buttons = [[
-                InlineKeyboardButton('⤬ ᴠɪꜱɪᴛ ᴏᴅɪɴᴜʟʟ ⤬', url=f'http://null.odivex.com')
+                InlineKeyboardButton('⤬ ᴠɪꜱɪᴛ ᴏᴅɪɴᴜʟʟ ⤬', url=f'http://null.odivax.com')
             ],[
                 InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info"),
-                InlineKeyboardButton(' ɢʀᴏᴜᴘ', url=GRP_LNK)
+                InlineKeyboardButton('ᴛʜᴇᴍᴇ ꜰɪɴᴅᴇʀ ɢʀᴏᴜᴘ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
                 InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
@@ -149,7 +149,7 @@ async def start(client, message):
             ]]
         else:
             buttons = [[
-                InlineKeyboardButton('⤬ ᴠɪꜱɪᴛ ᴏᴅɪɴᴜʟʟ ⤬', url=f'http://null.odivex.com')
+                InlineKeyboardButton('⤬ ᴠɪꜱɪᴛ ᴏᴅɪɴᴜʟʟ ⤬', url=f'http://null.odivax.com')
             ],[
                 InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info"),
                 InlineKeyboardButton('ᴛʜᴇᴍᴇ ꜰɪɴᴅᴇʀ ɢʀᴏᴜᴘ', url=GRP_LNK)
@@ -190,7 +190,7 @@ async def start(client, message):
         else:
             if PREMIUM_AND_REFERAL_MODE == True:
                 buttons = [[
-                    InlineKeyboardButton('⤬ ᴠɪꜱɪᴛ ᴏᴅɪɴᴜʟʟ ⤬', url=f'http://null.odivex.com')
+                    InlineKeyboardButton('⤬ ᴠɪꜱɪᴛ ᴏᴅɪɴᴜʟʟ ⤬', url=f'http://null.odivax.com')
                 ],[
                     InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info"),
                     InlineKeyboardButton('ᴛʜᴇᴍᴇ ꜰɪɴᴅᴇʀ ɢʀᴏᴜᴘ', url=GRP_LNK)
@@ -204,7 +204,7 @@ async def start(client, message):
                 ]]
             else:
                 buttons = [[
-                    InlineKeyboardButton('⤬ ᴠɪꜱɪᴛ ᴏᴅɪɴᴜʟʟ ⤬', url=f'http://null.odivex.com')
+                    InlineKeyboardButton('⤬ ᴠɪꜱɪᴛ ᴏᴅɪɴᴜʟʟ ⤬', url=f'http://null.odivax.com')
                 ],[
                     InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info"),
                     InlineKeyboardButton('ᴛʜᴇᴍᴇ ꜰɪɴᴅᴇʀ ɢʀᴏᴜᴘ', url=GRP_LNK)
