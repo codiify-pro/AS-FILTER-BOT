@@ -95,8 +95,8 @@ OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/aaryan_sah')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
-PM_SEARCH = bool(environ.get('PM_SEARCH', True))
-BUTTON_MODE = bool(environ.get('BUTTON_MODE', True))
+PM_SEARCH = bool(environ.get('PM_SEARCH', False))
+BUTTON_MODE = bool(environ.get('BUTTON_MODE', False))
 MAX_BTN = bool(environ.get('MAX_BTN', True))
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 IMDB = bool(environ.get('IMDB', False))
@@ -170,7 +170,7 @@ URL = environ.get("URL", "https://as-cinemaa.koyeb.app/")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
-RENAME_MODE = bool(environ.get('RENAME_MODE', True)) # Set True or False
+RENAME_MODE = bool(environ.get('RENAME_MODE', False)) # Set True or False
 
 
 # Auto Approve Info : If True Then Bot Approve New Upcoming Join Request Else Not
