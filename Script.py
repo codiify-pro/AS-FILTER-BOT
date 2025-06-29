@@ -5,11 +5,11 @@
 class script(object):
     START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}!</blockquote>
     
-ɪ’ᴍ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀᴜᴛᴏ-ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴅᴇꜱɪɢɴᴇᴅ ᴛᴏ ʜᴇʟᴩ yᴏᴜ ꜰɪɴᴅ ᴀɴy ᴍᴏᴠɪᴇ ᴏʀ ᴡᴇʙ ꜱᴇʀɪᴇꜱ ɪɴꜱᴛᴀɴᴛʟy. ᴊᴜꜱᴛ ᴛyᴩᴇ ᴛʜᴇ ɴᴀᴍᴇ — ɪ’ʟʟ ꜰᴇᴛᴄʜ ᴀᴄᴄᴜʀᴀᴛᴇ ʀᴇꜱᴜʟᴛꜱ ɪɴ ꜱᴇᴄᴏɴᴅꜱ. ꜰᴀꜱᴛ, ꜱᴍᴀʀᴛ, ᴀɴᴅ ᴀʟᴡᴀyꜱ ʀᴇᴀᴅy ᴛᴏ ᴀꜱꜱɪꜱᴛ yᴏᴜʀ ᴇɴᴛᴇʀᴛᴀɪɴᴍᴇɴᴛ ꜱᴇᴀʀᴄʜ.</b>"""
+ɪ ᴀᴍ ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴇᴅɪᴀ ᴘʀᴏᴠɪᴅᴇʀ ʙᴏᴛ. ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇᴅ ᴀʟʟ ʟᴀᴛᴇꜱᴛ ᴍᴏᴠɪᴇꜱ ᴏʀ ꜱᴇʀɪᴇꜱ. ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ .</b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
-ɪ’ᴍ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀᴜᴛᴏ-ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴅᴇꜱɪɢɴᴇᴅ ᴛᴏ ʜᴇʟᴩ yᴏᴜ ꜰɪɴᴅ ᴀɴy ᴍᴏᴠɪᴇ ᴏʀ ᴡᴇʙ ꜱᴇʀɪᴇꜱ ɪɴꜱᴛᴀɴᴛʟy. ᴊᴜꜱᴛ ᴛyᴩᴇ ᴛʜᴇ ɴᴀᴍᴇ — ɪ’ʟʟ ꜰᴇᴛᴄʜ ᴀᴄᴄᴜʀᴀᴛᴇ ʀᴇꜱᴜʟᴛꜱ ɪɴ ꜱᴇᴄᴏɴᴅꜱ. ꜰᴀꜱᴛ, ꜱᴍᴀʀᴛ, ᴀɴᴅ ᴀʟᴡᴀyꜱ ʀᴇᴀᴅy ᴛᴏ ᴀꜱꜱɪꜱᴛ yᴏᴜʀ ᴇɴᴛᴇʀᴛᴀɪɴᴍᴇɴᴛ ꜱᴇᴀʀᴄʜ. 💘</b>"""
+ɪ ᴀᴍ ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴇᴅɪᴀ ᴘʀᴏᴠɪᴅᴇʀ ʙᴏᴛ. ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇᴅ ᴀʟʟ ʟᴀᴛᴇꜱᴛ ᴍᴏᴠɪᴇꜱ ᴏʀ ꜱᴇʀɪᴇꜱ. ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ .</b>"""
     
     HELP_TXT = """<b>ʜᴇʟʟᴏ {}
 ʜᴇʀᴇ ɪs ᴀʟʟ ᴍʏ ᴜsᴇғᴜʟʟ ғᴇᴀᴛᴜʀᴇs.</b>"""
@@ -21,8 +21,7 @@ class script(object):
 ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href={}>ᴏᴡɴᴇʀ</a> 
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
-‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
-‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>ʜᴇʀᴏᴋᴜ</a> 
+‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://odivex.com'>ᴏᴅɪᴠᴇx</a> 
 ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
 
     CLONE_ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴀʙᴏᴜᴛ ]───⍟</blockquote>
@@ -32,7 +31,6 @@ class script(object):
 ‣ ᴄʟᴏɴᴇᴅ ғʀᴏᴍ : <a href=https://t.me/{}>{}</a>
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
-‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
 ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
 
     CLONE_TXT = """<b>🌟 <u>CLONE MODE</u>
@@ -46,7 +44,7 @@ class script(object):
     SUBSCRIPTION_TXT = """
 <b>ʀᴇғᴇʀʀᴇ ʏᴏᴜʀ ʟɪɴᴋ ᴛᴏ ʏᴏᴜʀ ғʀɪᴇɴᴅs, ғᴀᴍɪʟʏ, ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ɢʀᴏᴜᴘ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ ғᴏʀ {}
 
-ʀᴇғᴇʀᴀʟ ʟɪɴᴋ - https://telegram.me/{}?start=MRx-{}
+ʀᴇғᴇʀᴀʟ ʟɪɴᴋ - https://telegram.me/{}?start=AS-{}
 
 ɪғ {} ᴜɴɪǫᴜᴇ ᴜsᴇʀ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴡɪᴛʜ ʏᴏᴜʀ ʀᴇғᴇʀᴀʟ ʟɪɴᴋ ᴛʜᴇɴ ʏᴏᴜ ᴡɪʟʟ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴀᴅᴅᴇᴅ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪsᴛ.
 
@@ -176,12 +174,12 @@ OTHER DB :-
 ★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
 ★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code></b>"""
     
-    LOG_TEXT_G = """#NewGroup
+    LOG_TEXT_G = """#NewASGroup
 Gʀᴏᴜᴘ = {}(<code>{}</code>)
 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
 Aᴅᴅᴇᴅ Bʏ - {}"""
 
-    LOG_TEXT_P = """#NewUser
+    LOG_TEXT_P = """#NewASUser
 ID - <code>{}</code>
 Nᴀᴍᴇ - {}"""
 
@@ -202,12 +200,12 @@ Nᴀᴍᴇ - {}"""
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
 ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ...
 
-𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙴𝙽𝙳 𝚃𝙷𝙴 𝙼𝙾𝚅𝙸𝙴 𝙽𝙰𝙼𝙴 𝙷𝙴𝚁𝙴 👉 AS Support Group,
+𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙴𝙽𝙳 𝚃𝙷𝙴 𝙼𝙾𝚅𝙸𝙴 𝙽𝙰𝙼𝙴 𝙷𝙴𝚁𝙴 👉 @my_Support_group,
 𝚈𝙾𝚄 𝚆𝙸𝙻𝙻 𝙶𝙴𝚃 𝚃𝙷𝙴 𝙼𝙾𝚅𝙸𝙴 𝙸𝙽 𝚂𝙾𝙼𝙴 𝚃𝙸𝙼𝙴"""
 
     MVE_NT_FND = """ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ...
 
-    𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙴𝙽𝙳 𝚃𝙷𝙴 𝙼𝙾𝚅𝙸𝙴 𝙽𝙰𝙼𝙴 𝙷𝙴𝚁𝙴 👉 AS Support Group,
+    𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙴𝙽𝙳 𝚃𝙷𝙴 𝙼𝙾𝚅𝙸𝙴 𝙽𝙰𝙼𝙴 𝙷𝙴𝚁𝙴 👉 @my_Support_group,
     𝚈𝙾𝚄 𝚆𝙸𝙻𝙻 𝙶𝙴𝚃 𝚃𝙷𝙴 𝙼𝙾𝚅𝙸𝙴 𝙸𝙽 𝚂𝙾𝙼𝙴 𝚃𝙸𝙼𝙴"""
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
@@ -255,10 +253,8 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>Movie Name {file_name}</a>
-<b>ᴛʜᴀɴᴋ yᴏᴜ ꜰᴏʀ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴍᴏᴠɪᴇꜱ ᴀɴᴅ ᴡᴇʙ ꜱᴇʀɪᴇꜱ ꜰʀᴏᴍ ᴀꜱ ᴄɪɴᴇᴍᴀᴀ. ɪꜰ yᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ ᴀɴy ᴏᴛʜᴇʀ ᴍᴏᴠɪᴇ ᴏʀ ꜱᴇʀɪᴇꜱ, ᴡᴇ’ʀᴇ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴩ ꜰᴇᴇʟ ꜰʀᴇᴇ ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ ᴀɴyᴛɪᴍᴇ ɪɴ ᴛʜᴇ ᴀꜱ ꜱᴜᴩᴩᴏʀᴛ ɢʀᴏᴜᴩ! 
-════════════════════
-ꜱʜᴀʀᴇ ᴡɪᴛʜ ʏᴏᴜʀ ꜰʀɪᴇɴᴅꜱ</b>""" 
+    CAPTION = """<b>Movie Name: {file_name}</a>
+<b>❗️Join :- @AS_cinemaa </b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
@@ -507,8 +503,8 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
  படி 2: உங்கள் இணையதளம் மற்றும் API ஐச் சேர்க்கவும்
 
- Exp: /shortlink xtz.in 4b392f8eb6ad711fbe58
-
+ Exp: /shortlink ind.lol ind
+ 
  வீடியோவைச் சேர்க்கவும்
 
  👇 எப்படி சேர்ப்பது 👇
@@ -534,7 +530,7 @@ Hey <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a>
 
  Step 2: Add your website and API
 
- Exp: /shortlink xtz.in 4b392f8eb6ad711fbe58
+ Exp: /shortlink ind.lol ind
 
  Add a video
 
@@ -561,7 +557,7 @@ Also your tutorial will be Added Your Group..."""
 
  దశ 2: మీ వెబ్‌సైట్ మరియు APIని జోడించండి
 
- గడువు: /shortlink xtz.in 4b392f8eb6ad711fbe58
+ గడువు: /shortlink ind.lol ind
 
  వీడియోను జోడించండి
 
@@ -588,7 +584,7 @@ Also your tutorial will be Added Your Group..."""
 
  चरण 2: अपनी वेबसाइट और एपीआई जोड़ें
 
- एक्सप: /shortlink xtz.in 4b392f8eb6ad711fbe58
+ एक्सप: /shortlink ind.lol ind
 
  एक वीडियो जोड़ें
 
@@ -615,7 +611,7 @@ Also your tutorial will be Added Your Group..."""
 
  ഘട്ടം 2: നിങ്ങളുടെ വെബ്‌സൈറ്റും API-യും ചേർക്കുക
 
- കാലഹരണപ്പെടൽ: /shortlink xtz.in 4b392f8eb6ad711fbe58
+ കാലഹരണപ്പെടൽ: /shortlink ind.lol ind
 
  ഒരു വീഡിയോ ചേർക്കുക
 
@@ -642,7 +638,7 @@ Also your tutorial will be Added Your Group..."""
 
  مرحلہ 2: اپنی ویب سائٹ اور API شامل کریں۔
 
- Exp: /shortlink xtz.in 4b392f8eb6ad711fbe58
+ Exp: /shortlink ind.lol ind
 
  ایک ویڈیو شامل کریں۔
 
@@ -669,7 +665,7 @@ Also your tutorial will be Added Your Group..."""
 
  પગલું 2: તમારી વેબસાઇટ અને API ઉમેરો
 
- સમાપ્તિ: /shortlink xtz.in 4b392f8eb6ad711fbe58
+ સમાપ્તિ: /shortlink ind.lol ind
 
  વિડિઓ ઉમેરો
 
@@ -695,7 +691,7 @@ Also your tutorial will be Added Your Group..."""
 
  ಹಂತ 2: ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್ ಮತ್ತು API ಸೇರಿಸಿ
 
- ಅವಧಿ: /shortlink xtz.in 4b392f8eb6ad711fbe58
+ ಅವಧಿ: /shortlink ind.lol ind
 
  ವೀಡಿಯೊ ಸೇರಿಸಿ
 
@@ -721,7 +717,7 @@ Also your tutorial will be Added Your Group..."""
 
  ধাপ 2: আপনার ওয়েবসাইট এবং API যোগ করুন
 
- মেয়াদ: /shortlink xtz.in 4b392f8eb6ad711fbe58
+ মেয়াদ: /shortlink ind.lol ind
 
  একটি ভিডিও যোগ করুন
 
