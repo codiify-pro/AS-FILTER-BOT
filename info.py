@@ -17,7 +17,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxIkG_NE4_VosHLw9cr6ypFJXfbukji0kHQAtqcIo4SyNrBSJRPc-rKz-8ezBQxRp5lmGnQaLchnp1plpeeYwZOhLeeaSeMY-YOHiZIEVeXcnb48waFARe88bqxnjzHyVPS66pyjHL4msTK0m8YpHI5ekR8QKBLbuijqu4C5tAftKLdNUHc-oJrmGNjSqK/s1600/20250629_202645.jpg')).split()
+PICS = (environ.get('PICS', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnOpg5jWMuVlkXOF7ohRjZjIMyRjmaYJnxvsmhOnBp2f5_luQGKx9hEuDK&s=10')).split()
 
 
 # Admins & Users
@@ -196,3 +196,4 @@ else:
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
